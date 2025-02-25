@@ -7,7 +7,7 @@ import { nruAlgorithm } from './techniques/nru';
 import { clockAlgorithm } from './techniques/clock';
 import { wsClockAlgorithm } from './techniques/wsclock';
 
-const directory = "C://Users//luizf//OneDrive//Área de Trabalho//memory-manager-so//src//docs";
+const directory = "C://Users//upflo//OneDrive//Área de Trabalho//IFMG//memory-manager-so-1//src//docs";
 const directoryDestiny = path.resolve(__dirname, './doc-parsed');
 const files = getTestFiles(directory);
 

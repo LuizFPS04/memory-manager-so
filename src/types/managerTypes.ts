@@ -7,20 +7,20 @@ export interface PageReference {
 export interface InputData {
     totalPages: number;
     totalFrames: number;
-    clockCycle: number; // Ciclo do relógio (se necessário)
+    clockCycle: number;
     references: PageReference[];
 }
 
 export type Page = {
     pageNumber: number;
-    R: number; // Referência
-    M: number; // Modificação
+    R: number;
+    M: number;
 };
 
 export type PageWs = {
     pageNumber: number;
-    R: number; // Referência
-    M: number; // Modificação
-    lastAccess: number; // Último acesso
-    present: boolean; // Se a página está presente na memória
+    R: number;
+    M: number;
+    lastAccess: number;
+    present: boolean;
 };
